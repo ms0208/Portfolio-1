@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    height: 100px;
+    width: 95%;
+    border-bottom:2px solid #dadada ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.nav h4{
+    font-size: 1vw;
+}
+.nav i{
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+}
+.nav-part2{
+    display: flex;
+    /* This is not work due to no space
+    justify-content: space-between;*/
+    align-items: center;
+    gap:4vw;
+}
+
+
+@media (max-width:600px){
+    .nav{
+        background-color: lightseagreen;
+        color: #fff;
+        padding: 0 5vw;
+        height: 60px;
+    }
+    .nav h2{
+        font-size: 6vw;   
+    }
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 6vw;
+    }
+
+
+}
