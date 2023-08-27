@@ -642,7 +642,7 @@ section{
     .header {
         background: var(--bg-color);
     }
-    #menu-icons{
+    #menu-icons{    
         display: block;
     }
 
